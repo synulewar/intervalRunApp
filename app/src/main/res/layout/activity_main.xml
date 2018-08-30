@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LabelStyle"
+            android:text="Czas interwału biegowego"
+            android:layout_margin="@dimen/small_margin"/>
+
+        <Spinner
+            android:id="@+id/runSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog"
+            android:prompt="@string/timePromptRun"
+            android:layout_margin="@dimen/mid_margin">
+        </Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LabelStyle"
+            android:text="@string/czas_interwa_u_spacerowego"
+            android:layout_margin="@dimen/small_margin"/>
+
+        <Spinner
+            android:id="@+id/walkSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog"
+            android:prompt="@string/timePromptWalk"
+            android:layout_margin="@dimen/mid_margin">
+        </Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LabelStyle"
+            android:text="@string/ilo_interwa_w"
+            android:layout_margin="@dimen/small_margin"/>
+
+        <Spinner
+            android:id="@+id/intervalSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog"
+            android:prompt="@string/promptInterval"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_marginBottom="@dimen/mid_margin">
+        </Spinner>
+
+        <Button
+            android:id="@+id/startTraining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rozpocznij_trening"/>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

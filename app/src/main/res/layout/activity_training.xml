@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/currentIntervalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LabelStyle"
+            android:text="Bieg Albo Spacer"
+            android:layout_margin="@dimen/small_margin"/>
+
+        <TextView
+            android:id="@+id/currentIntervalTimeLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ValuesStyle"
+            android:text="11:11"
+            android:layout_margin="@dimen/small_margin"/>
+
+        <TextView
+            android:id="@+id/cycleNumberLeftLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LabelStyle"
+            android:text="Pozostałe cykle"
+            android:layout_margin="@dimen/small_margin"/>
+
+        <TextView
+            android:id="@+id/cycleNumberLef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ValuesStyle"
+            android:text="3"
+            android:layout_margin="@dimen/small_margin"/>
+
+        <TextView
+            android:id="@+id/trainingTimeLeftLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/LabelStyle"
+            android:text="Czas pozostały do końca treningu"
+            android:layout_margin="@dimen/small_margin"/>
+
+        <TextView
+            android:id="@+id/trainingTimeLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/ValuesStyle"
+            android:text="18:11"
+            android:layout_marginTop="@dimen/small_margin"
+            android:layout_marginBottom="@dimen/wide_margin"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/startStopButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/start"
+                android:layout_marginEnd="50dp"/>
+
+            <Button
+                android:id="@+id/finishButton"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/finish"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

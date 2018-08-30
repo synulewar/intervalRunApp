@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IntervalRun</string>
+    <string name="timePromptRun">Ile ma trwać interwał biegu?</string>
+    <string name="timePromptWalk">Ile ma trwać interwał spaceru?</string>
+    <string name="promptInterval">Ile cykli ma mieć trening?</string>
+    <string name="ilo_interwa_w">Ilość cykli</string>
+    <string name="czas_interwa_u_spacerowego">Czas interwału spacerowego</string>
+    <string name="rozpocznij_trening">Rozpocznij trening</string>
+    <string name="start">start</string>
+    <string name="finish">Koniec</string>
+    <string name="startButtonText">Start</string>
+    <string name="stopButtonText">Stop</string>
+    <string name="resumeButtonText">Wznów</string>
+    <string name="finishButtonText">Koniec</string>
+    <string name="pausedButtonText">Pauza</string>
+    <string name="runDisplay">Bieg</string>
+    <string name="walkDisplay">Spacer</string>
+</resources>
